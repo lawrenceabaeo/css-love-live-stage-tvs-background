@@ -1,0 +1,115 @@
+/*===================================*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+      box-sizing: inherit;
+}
+/*===================================*/
+body {
+  background: #000000;
+  margin: 15px 15px;
+}
+.main {
+  border-left: 2px solid #323232;
+  border-top: 2px solid #323232;
+  /* the border properties above form the top
+   * and left side of the full grid */
+  display: table;
+  min-height: 400px; /* Maybe change this? */
+  min-width: 711px; /* 711:400 is 16:9 aspect ratio */
+  min-height: 200px; /* Maybe change this? */
+  min-width: 355px; /* 711:400 is 16:9 aspect ratio */
+  position: relative;
+  width: 100%;
+}
+.main > p {
+  color: rgba(32,32,32,0.60);
+  font-size: 100px;
+  font-size: 15vw;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  position: absolute;
+  text-align: center;
+  text-shadow: -3vh 5.5vh rgba(0, 0, 0, 0.15);
+  top: 37%;
+  width: 100%;
+  z-index: 2;
+}
+.my-row {
+  display: table-row;
+}
+div.panel-wrapper {
+  border-bottom: 2px solid #323232;
+  border-right: 2px solid #323232;
+  /* the border properties above form
+   * the right and bottom of each panel */
+  border-collapse: collapse;
+  display: table-cell;
+  padding-bottom: 14.07%;
+  position: relative;
+  width: 25%;
+}
+div.panel-wrapper > div {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  text-align: center;
+}
+.p1 {
+  background: #25F32F;
+}
+.p2 {
+  background: #2C28E9;
+}
+.p3 {
+  background: #D171F3;
+}
+.p4 {
+  background: #F04CD6;
+}
+.p5 {
+  background: #F0F1F4;
+}
+.p6 {
+  background: #F4AE4E;
+}
+.p7 {
+  background: #FAFD3F;
+}
+.p8 {
+  background: #2319D3;
+}
+.p9 {
+  background: #F4CF28;
+}
+.p10 {
+  background: #B3FDF9;
+}
+.p11 {
+  background: #E5B2F8;
+}
+.p12 {
+  background: #EC4E2B;
+}
+.p13 {
+  background: #EE55D0;
+}
+.p14{
+  background: #DE92F7;
+}
+.p15 {
+  background: #69FDF9;
+}
+.p16 {
+  background: #EFEEF3;
+}
+
+@font-face {
+  font-family: 'Dotline'; /* http://www.fontspace.com/honey-and-death/dotline */
+  src: url('DOTLRG__.TTF')  format('truetype')
+}
+.dotted-font {
+  font-family: 'Dotline', Fallback, sans-serif;
+  font-size: xx-large;
+}
