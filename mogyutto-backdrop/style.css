@@ -121,9 +121,13 @@ div.panel-wrapper > div {
   height: 100%;
   width: 100%;
   background-color: transparent;
+  -webkit-animation-name: lightUp;
   animation-name: lightUp;
+  -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
   animation-timing-function: ease-in;
+  -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
 }
 
