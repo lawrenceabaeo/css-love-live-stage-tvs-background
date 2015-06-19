@@ -113,3 +113,31 @@ div.panel-wrapper > div {
   font-family: 'Dotline', Fallback, sans-serif;
   font-size: xx-large;
 }
+
+.over {
+  z-index: 101;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  animation-name: lightUp;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1.5s;
+}
+
+@keyframes lightUp {
+  0% {
+    background: #000000;
+  }
+  30% {
+    background: #000000;
+  }
+  60% {
+    background: #FFFFFF;
+  }
+  100% {
+    background: transparent;
+  }
+}
