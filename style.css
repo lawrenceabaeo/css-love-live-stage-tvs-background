@@ -145,3 +145,18 @@ div.panel-wrapper > div {
     background: transparent;
   }
 }
+
+@-webkit-keyframes lightUp {
+  0% {
+    background: #000000;
+  }
+  30% {
+    background: #000000;
+  }
+  60% {
+    background: #FFFFFF;
+  }
+  100% {
+    background: transparent;
+  }
+}
