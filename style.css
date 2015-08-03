@@ -121,6 +121,7 @@ div.panel-wrapper > div {
   height: 100%;
   width: 100%;
   background-color: transparent;
+  pointer-events: none;
   -webkit-animation-name: lightUp;
   animation-name: lightUp;
   -webkit-animation-iteration-count: 1;
@@ -159,4 +160,16 @@ div.panel-wrapper > div {
   100% {
     background: transparent;
   }
+}
+
+a {
+  font-style: inherit;
+  color: inherit;
+  background-color: transparent;
+  font-size: inherit;
+  text-decoration: none;
+  font-variant: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  font-family: inherit;
 }
