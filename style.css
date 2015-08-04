@@ -107,7 +107,8 @@ div.panel-wrapper > div {
 
 @font-face {
   font-family: 'Dotline'; /* http://www.fontspace.com/honey-and-death/dotline */
-  src: url('DOTLRG__.TTF')  format('truetype')
+  /* src: url('DOTLRG__.TTF')  format('truetype') */
+  src: url('DOTLRG__copy.woff') format('woff'); /* Had to convert to woff, because the true type had an embeddability permission that I wasn't able to change. This only affected Internet Explorer.' */
 }
 .dotted-font {
   font-family: 'Dotline', Fallback, sans-serif;
